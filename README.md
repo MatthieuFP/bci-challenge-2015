@@ -14,8 +14,18 @@ You can vizualise some EEG data with in the notebook vizualisation.ipynb.
 - Python 3.6.8
 
 ```shell script
-$ git clone ...
+$ git clone https://gitlab.com/matthieu_futeral/bci-challenge-2015.git
 $ pip install -r requirements.txt
+```
+
+- To solve pyriemann import Error => pyriemann/clustering.py (line 5):
+```python
+from sklearn.cluster._kmeans import _init_centroids
+```
+to
+```python
+from sklearn.cluster._kmeans import KMeans
+_init_centroids = KMeans._init_centroids
 ```
 
 ## Feature extraction

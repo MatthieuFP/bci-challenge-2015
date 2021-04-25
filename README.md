@@ -9,6 +9,15 @@ I used two different approaches in this project and compare them :
 
 You can vizualise some EEG data with in the notebook vizualisation.ipynb.
 
+## Installation
+
+- Python 3.6.8
+
+```shell script
+$ git clone ...
+$ pip install -r requirements.txt
+```
+
 ## Feature extraction
 
 ### Reproduce features extraction (may be long) :

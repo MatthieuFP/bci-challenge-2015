@@ -63,7 +63,6 @@ if __name__ == "__main__":
     parser.add_argument("--name_features", type=str, required=True)
     parser.add_argument("--ica", type=int, default=0)
     parser.add_argument("--spectral", type=int, default=0)
-    parser.add_argument("--wavelet", type=int, default=0)
     parser.add_argument("--normalized", type=int, default=0)
     parser.add_argument("--setup", type=str, default="eegnet")
     args = parser.parse_args()
